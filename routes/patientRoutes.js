@@ -11,7 +11,6 @@ router.get('/reports/:patientId', (req, res) => {
   res.redirect(`/reports/view/${req.params.patientId}`);
 });
 
-
 // Handle registration form submission
 router.post('/register', patientController.registerPatient);
 
